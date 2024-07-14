@@ -2,10 +2,24 @@
 ##Don't forget the star project if you liked the project :)
 
 from termcolor import colored
-import string
 
-capital_letters = string.ascii_uppercase
-small_letters = string.ascii_lowercase
+
+capital_letters = (
+    [chr(codepoint) for codepoint in range(0x0041, 0x005A + 1)] +  # Latin (English, Spanish, French, German, Portuguese)
+    [chr(codepoint) for codepoint in range(0x0410, 0x044F + 1)] +  # Cyrillic (Russian)
+    [chr(codepoint) for codepoint in range(0x4E00, 0x9FFF + 1)] +  # Chinese
+    [chr(codepoint) for codepoint in range(0x0621, 0x064A + 1)] +  # Arabic
+    [chr(codepoint) for codepoint in range(0x0900, 0x097F + 1)] +  # Devanagari (Hindi)
+    [chr(codepoint) for codepoint in range(0x0980, 0x09FF + 1)]    # Bengali
+)
+small_letters = (
+    [chr(codepoint) for codepoint in range(0x0061, 0x007A + 1)] +  # Latin (English, Spanish, French, German, Portuguese)
+    [chr(codepoint) for codepoint in range(0x0430, 0x044F + 1)] +  # Cyrillic (Russian)
+    [chr(codepoint) for codepoint in range(0x4E00, 0x9FFF + 1)] +  # Chinese (currently using the same range as for capital letters, adjust as needed)
+    [chr(codepoint) for codepoint in range(0x0621, 0x064A + 1)] +  # Arabic
+    [chr(codepoint) for codepoint in range(0x0900, 0x097F + 1)] +  # Devanagari (Hindi)
+    [chr(codepoint) for codepoint in range(0x0980, 0x09FF + 1)]    # Bengali
+)
 
 def main():
     while True:
