@@ -1,5 +1,5 @@
 # Caesar Cipher Python Project 🗝️
-That project implements a basic Caesar cipher encryption and decryption methods in python. 
+That project implements a basic Caesar encryption and decryption methods in python. 
 # Features:
 ●Encode: Encrypts plain text using a specified shift key.
 
