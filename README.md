@@ -19,9 +19,9 @@ Users can use project with a simple command line, here's the example usage
 To start project clone repository and run the Python script.Ensure you're using Python 3.x and 'termcolor' library are installed on your system.
 
 ```
-git clone https://github.com/your-username/caesar-cipher-python.git
-cd caesar-cipher-python
-python caesar_cipher.py
+git clone https://github.com/halilfurkankarademir/Caesar-Cipher-Python.git
+cd Caesar-Cipher-Python
+python caesar.py
 
 ```
 
