@@ -12,7 +12,7 @@ That project implements a basic Caesar encryption and decryption methods in pyth
 ●German
 ●French
 ●Turkish
-●Russian
+
 
 
 # Usage Of Project
