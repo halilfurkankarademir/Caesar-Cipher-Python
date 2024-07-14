@@ -6,6 +6,9 @@ That project implements a basic Caesar encryption and decryption methods in pyth
 ●Decode with Key: Decrypts encoded text using a specified shift key.
 
 ●Decode without Key: Attempts all possible shifts to decrypt encoded text without requiring the exact key.
+# Supported languages
+●English
+
 # Usage Of Project
 Users can use project with a simple command line, here's the example usage
 
